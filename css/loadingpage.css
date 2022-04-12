@@ -1,0 +1,29 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+  padding: 0;
+}
+.loadingScreen {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  background-color: black;
+}
+/* positioning the loading label in the center  */
+.middle {
+  top: 45%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  position: absolute;
+}
+.loadingText {
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+  margin-top: 20px;
+  text-align: center;
+  font-family: monospace;
+}
+.homeScreen {
+  display: none;
+}
